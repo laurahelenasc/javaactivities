@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+    public static void main(String[] args) {
+        var scanner = new Scanner(System.in);
+        System.out.println("Qual o seu nome?");
+        var userName = scanner.next();
+        System.out.println("Qual a sua idade?");
+        var age = scanner.nextInt();
+        System.out.printf ("Ola, %s, voce tem %d", userName, age);
+        }
+    }
