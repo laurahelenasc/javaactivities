@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+    public static void main(String[] args) {
+        var scanner = new Scanner(System.in);
+        System.out.println("Qual valor do lado?");
+        var firstSide = scanner.nextInt();
+        System.out.println("Qual o valor do outro lado?");
+        var secondSide = scanner.nextInt();
+        var resultado = firstSide * secondSide;
+        System.out.printf ("Resultado da formula e %d", resultado);
+        }
+    }
