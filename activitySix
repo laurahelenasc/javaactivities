@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+    public static void main(String[] args) {
+        var scanner = new Scanner(System.in);
+        System.out.println("Qual nome da pessoa 1?");
+        var nomeUm = scanner.next();
+        System.out.println("Qual o nome da pessoa 2?");
+        var nomeDois = scanner.next();
+        System.out.println("Qual a idade da pessoa 1");
+        var idadeUm = scanner.nextInt();
+        System.out.println("Qual a idade da pessoa 2?");
+        var idadeDois = scanner.nextInt();
+        var diferenca =  idadeUm - idadeDois;
+        System.out.printf ("Resultado da diferença das idades e %d", diferenca);
+        }
+    }
